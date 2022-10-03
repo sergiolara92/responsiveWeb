@@ -1,0 +1,42 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+}
+
+.projects p {
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.projects a {
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+
+
+.recentProjects {
+    width: 1100px;
+}
+
+.projectRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+.projectRow img{
+    height: 240px;
+    width: 340px;
+}
+
+.projectColumn {
+    background-color: white;
+    height: 444px;
+    width: 340px;
+}
+
+
+
