@@ -1,0 +1,12 @@
+.testimonial {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+}
+
+.testimonialContainer {
+    height: 622px;
+    width: 1320px;
+    background-color: #292E47;
+}

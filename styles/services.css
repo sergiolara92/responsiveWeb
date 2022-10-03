@@ -1,0 +1,57 @@
+.services {
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+}
+
+.services p {
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.services a {
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+
+
+.ourServices {
+    width: 1100px;
+}
+
+.servicesRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+.servicesRow .fondo {
+    position: relative;
+    background-color: #ECF7FF;     
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    top: 5%;
+    left: 5%;
+    
+}
+
+.servicesRow img{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.servicesColumn {
+    background-color: white;
+    height: 380px;
+    width: 340px;
+}
+
+
+
