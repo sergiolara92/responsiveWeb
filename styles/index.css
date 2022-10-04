@@ -6,19 +6,23 @@
 @import url("/styles/services.css");
 @import url("/styles/newsletter.css");
 @import url("/styles/footer.css");
+@import url("/styles/simplify.css");
 
 h1 {
+    color: #292E47;
     font-size: 60px;
     line-height: 70px;
 }
 
 h3 {
+    color: #292E47;
     font-size: 40px;
     line-height: 46px;
 }
 
 /* recent projects y our services */
 h4 { 
+    color: #292E47;
     font-size: 24px;
     line-height: 28px;
     padding-left: 20px;
