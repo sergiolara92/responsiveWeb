@@ -6,6 +6,15 @@
     height: 500px;
 }
 
+.newsLetter h3{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.newsLetter p{
+    margin-bottom: 40px;
+}
+
 .yellowAreaContainer {
     height: 500;
     width: 1320px;
@@ -34,6 +43,7 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
+    font-size: 17px;
 }
 
 .yellowBotones button {
@@ -61,8 +71,8 @@
 }
 .espacioEmail img {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 

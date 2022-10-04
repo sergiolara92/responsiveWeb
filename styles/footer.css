@@ -24,8 +24,13 @@ footer {
     justify-content: space-between;
 }
 
+.footerRight a{
+    color: #6B708D;
+    font-size: 17px;
+}
+
 .footerColumn {
-    width: 43px;
+    width: auto;
     height: 112px;
     gap: 60px;
     display: flex;
