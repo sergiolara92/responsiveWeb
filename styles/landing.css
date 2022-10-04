@@ -18,28 +18,34 @@
 
 .landingLeft {
     width: 530px;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .landingLeft p {
     color: #6B708D;
     width: 435px;
 }
 
-.botonNormal{
+.landingLeftBoton {
+    display: flex;
+    flex-direction: row;
+}
+
+.landingLeftBoton .botonNormal{
     background: #072AC8;
     color: white;
     width: 150px;
     height: 52px;
     border: none;
-    padding: 15px, 36px, 15px, 36px;
 }
 
-.botonIncolor {
+.landingLeftBoton .botonIncolor {
     background-color: transparent;
     width: 150px;
     height: 52px;
     border: none;
-    padding: 15px, 36px, 15px, 36px;
     color: #6B708D;
 }
 

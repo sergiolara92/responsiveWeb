@@ -29,6 +29,17 @@ nav a{
     flex-direction: row;
     justify-content: space-around;
     gap: 60px;
+    width: 33%;
+}
+
+.navLeft {
+    width: 33%;
+}
+
+.navRight {
+    width: 33%;
+    display: flex;
+    justify-content: right;
 }
 
 
@@ -37,7 +48,6 @@ nav a{
     width: 150px;
     height: 52px;
     border: none;
-    padding: 15px, 36px, 15px, 36px; 
 }
 
 .navRight a{
