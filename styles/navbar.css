@@ -15,6 +15,11 @@ width: 1440px;
     align-items: center;
 }
 
+.navLeft img{
+    height: 18.5px;
+    width: 60.5px;
+}
+
 .navMiddle{
     display: flex;
     flex-direction: row;

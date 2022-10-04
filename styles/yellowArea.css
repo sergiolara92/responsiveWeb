@@ -1,0 +1,68 @@
+.newsLetter {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 500px;
+}
+
+.yellowAreaContainer {
+    height: 500;
+    width: 1320px;
+    background-color: #FFC600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellowAreaText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    height: 227px;
+}
+
+.yellowAreaText h3, p {
+    color: #292E47;
+}
+
+
+.yellowBotones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.yellowBotones button {
+    background: #072AC8;
+    color: white;
+    width: 198px;
+    height: 80px;
+    border: none;
+    padding: 15px, 36px, 15px, 36px;
+}
+
+.yellowBotones input{
+    padding-left: 10px;
+    width: 393px;
+    height: 80px;
+    border: none;
+} 
+
+.espacioEmail {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.espacioEmail img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+

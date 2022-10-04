@@ -2,16 +2,16 @@
     display: flex;
     justify-content: center;
     width: 1440px;
+    margin-top: 200px;
 }
 
 .services p {
     font-size: 17px;
-    padding-left: 20px;
+
 }
 
 .services a {
     font-size: 17px;
-    padding-left: 20px;
 }
 
 
@@ -35,7 +35,7 @@
     width: 80px;
     top: 5%;
     left: 5%;
-    
+    margin-bottom: 50px;
 }
 
 .servicesRow img{
@@ -51,7 +51,16 @@
     background-color: white;
     height: 380px;
     width: 340px;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
 }
+
+.servicesColumn > a, p, h4 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
 
 
 
