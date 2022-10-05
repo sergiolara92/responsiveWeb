@@ -1,0 +1,45 @@
+.otherProjects {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.otherProjects p {
+    font-size: 17px;
+    padding-left: 20px;
+    color: #6B708D;
+}
+
+.otherProjects a {
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+
+
+.otherRecentProjects {
+    width: 76.39%;
+    height: 76.92%;
+}
+
+.otherProjectRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+.otherProjectRow img{
+    height: 50%;
+    width: 100%;
+}
+
+.otherProjectColumn {
+    background-color: white;
+    width: 30%;
+}
+
+
+

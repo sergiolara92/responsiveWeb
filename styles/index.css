@@ -1,25 +1,35 @@
-@import url("/styles/navbar.css");
-@import url("/styles/landing.css");
-@import url("/styles/client.css");
-@import url("/styles/projects.css");
-@import url("/styles/testimonial.css");
-@import url("/styles/services.css");
-@import url("/styles/newsletter.css");
-@import url("/styles/footer.css");
-@import url("/styles/simplify.css");
-@import url("/styles/contacto.css");
+@import url("/styles/comun/footer.css");
+@import url("/styles/comun/navbar.css");
+@import url("/styles/comun/newsletter.css");
+
+@import url("/styles/contact/contacto.css");
+
+@import url("/styles/index/client.css");
+@import url("/styles/index/landing.css");
+@import url("/styles/index/projects.css");
+@import url("/styles/index/services.css");
+@import url("/styles/index/testimonial.css");
+
+@import url("/styles/projectw/otherprojects.css");
+@import url("/styles/projectw/simplify.css");
+
 
 h1 {
     color: #292E47;
     font-size: 60px;
     line-height: 70px;
+    padding-left: 0px;
+    margin-left: 0px;
 }
 
 h3 {
     color: #292E47;
     font-size: 40px;
     line-height: 46px;
+    padding-left: 0px;
+    margin-left: 0px;
 }
+
 
 /* recent projects y our services */
 h4 { 

@@ -3,25 +3,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1181px;
-    width: 1440px;
+    width: 100%;
+    height: auto;
     margin-top: 200px;
 }
 
 
 .simplifyTitulo {
     justify-content: start;
-    width: 1100px;
+    width: 76.39%;
 }
 
 .simplifyTitulo h1{
     margin-bottom: 0px;
 }
 
+.simplifySub p{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .simplifySub{
     display: flex;
     flex-direction: row;
-    width: 1100px;
+    width: 76.39%;
     justify-content: space-between;
     color: #6B708D;
 }
@@ -47,15 +52,14 @@
 }
 
 .simplifyCenter {
-    height: 934px;
-    width: 1100px;
+    height: 100%;
+    width: 76.39%;
     margin-top: 50px;
 }
 
 .simplifyCenter img{
     height: 444px;
-    width: 1100px;
-    background-color: yellow;
+    width: 100%;
     box-shadow: 0px 0px 60px -20px rgba(25, 25, 25, 25);
     margin-bottom: 50px;
 }
