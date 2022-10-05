@@ -5,6 +5,7 @@ footer {
     align-items: center;
     width: 100%;
     height: 40vh;
+    background-color: red;
     }
     
 .footerContainer {
@@ -14,6 +15,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: yellow;
 }
 
 .footerRight {
@@ -22,7 +24,9 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: green;
 }
+
 
 .footerRight a{
     color: #6B708D;
@@ -34,8 +38,9 @@ footer {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     color: #6B708D;
+    background-color: pink;
 }
 
 .footerLeft{
@@ -43,6 +48,7 @@ footer {
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: orange;
 }
 
 .footerLeft img{
@@ -54,4 +60,39 @@ footer {
     font-size: 17px;
     color: #6B708D;
     padding-left: 0px;
+}
+
+
+@media (min-width: 831px) and (max-width: 1100px) { /*tablet vertical*/
+
+    .footerLeft{
+        width: 40%;
+
+    }
+    
+}
+
+@media (max-width: 830.98px) { /*smartphone horizontal*/
+
+    .footerContainer{
+        width: 100%;
+    }
+
+    .footerLeft{
+        width: 50%;
+        justify-content: center;
+
+    }
+
+    .footerRight {
+        justify-content: center;
+        width: 50%;
+    }
+    
+}
+
+@media (min-width: 370px) and (max-width: 570px) { /*smartphone vertical*/
+
+
+        
 }

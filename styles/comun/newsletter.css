@@ -29,8 +29,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 83%;
     height: 40%;
+    background-color: pink;
 }
 
 .yellowAreaText h3, p {
@@ -47,6 +49,7 @@
     font-size: 17px;
     width: 70%;
     height: 35%;
+    background-color: red;
 }
 
 .yellowBotones button {
@@ -79,5 +82,83 @@
     height: 30px;
     left: 20px;
 }
+
+
+@media (min-width: 831px) and (max-width: 1100px) { /*tablet vertical*/
+
+    .yellowAreaContainer {
+    height: 80%;
+    }
+
+    .yellowAreaText {
+        height: 60%;
+
+    }
+
+    .yellowBotones {
+        width: 70%;
+        height: 25%;
+    }
+
+
+    
+}
+
+@media (max-width: 830.98px) { /*smartphone horizontal*/
+
+    .yellowAreaContainer {
+    height: 60%;
+    width: 100%;
+    }
+
+    .yellowAreaText {
+        height: 60%;
+        width: 100%;
+    }
+
+    .yellowBotones {
+        width: 70%;
+        height: 25%;
+        
+    }
+    
+}
+
+@media (min-width: 370px) and (max-width: 570px) { /*smartphone vertical*/
+
+    .newsLetter h3{
+        font-size: 35px;
+
+    }
+    
+    .yellowAreaText {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .yellowBotones {
+        width: 70%;
+        height: 40%;
+        flex-direction: column;
+    }
+
+    .yellowBotones button {
+        width: 100%;
+        height: 100%;
+
+    }
+    
+    .yellowBotones input{
+        width: 100%;
+    } 
+    
+    .espacioEmail {
+        width: 100%;
+    }
+        
+}
+
+
 
 

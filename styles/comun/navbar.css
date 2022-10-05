@@ -53,3 +53,17 @@ nav a{
 .navRight a{
     color: white !important;
 }
+
+
+
+@media (min-width: 831px) and (max-width: 1100px) { /*tablet vertical*/
+  
+}
+
+@media (max-width: 830.98px) { /*smartphone horizontal*/
+  
+}
+
+@media (min-width: 370px) and (max-width: 570px) { /*smartphone vertical*/
+     
+}
