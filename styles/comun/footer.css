@@ -5,7 +5,6 @@ footer {
     align-items: center;
     width: 100%;
     height: 40vh;
-    background-color: red;
     }
     
 .footerContainer {
@@ -15,7 +14,6 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: yellow;
 }
 
 .footerRight {
@@ -24,7 +22,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: green;
 }
 
 
@@ -40,7 +37,6 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     color: #6B708D;
-    background-color: pink;
 }
 
 .footerLeft{
@@ -48,7 +44,6 @@ footer {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: orange;
 }
 
 .footerLeft img{

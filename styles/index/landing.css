@@ -14,12 +14,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    justify-content: space-between;
 }
 
 .landingLeft {
     width: 50%;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;  
 }
 
 
@@ -60,7 +61,8 @@
 
 .landingRightFotoGrande {
     background-image: url("/project-assets/hero-section/hero-image.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 100%;
     width: 100%;
 }
@@ -68,26 +70,103 @@
 
 
 .img1 img{
+    position: absolute;
     height: 296px;
+    left: 0%;
+    top: 0%;
 }
 
 .img2 img{
     height: 296px;
     position: absolute;
-    top: 70%;
-    left: 60%;
+    bottom: -10%;
+    right: 0%;
 }
 
 
 
 @media (min-width: 831px) and (max-width: 1100px) { /*tablet vertical*/
   
+    .landing {
+        height: 110vh;
+    }
+    .landingContainer {
+        width: 98%;
+        height: 80%;
+    }
+
+    .landingLeft {
+        width: 40%;
+    }
+    .landingRight{
+        width: 60%;
+    }
+
+    .landingLeftBoton{
+        width: 100%;
+    }
+
+    .botonNormal{
+        width: 50%;
+    }
+    
+    .botonIncolor {
+        width: 50%;
+    }
+
+    .img1 img{
+        height: 256px;
+    }
+    
+    .img2 img{
+        height: 256px;
+    }
 }
 
 @media (max-width: 830.98px) { /*smartphone horizontal*/
+
+    .landing {
+        height: 150vh;
+    }
   
+    .landingContainer {
+        flex-direction: column;
+        justify-content: start;
+        gap: 30px;
+        width: 98%;
+        height: 90%;
+    }
+
+    .landingLeft {
+        width: 70%;
+    }
+
+    .landingRight{
+        width: 70%;
+        height: 40%;
+    }
+
+    .img1 img{
+        height: 196px;
+    }
+    
+    .img2 img{
+        height: 196px;
+        bottom: -10%;
+        right: 10%;
+    }
+
 }
 
 @media (min-width: 370px) and (max-width: 570px) { /*smartphone vertical*/
-     
+    .landingLeft {
+        width: 90%;
+        word-break:break-all;
+    }
+
+    .landingRight{
+        width: 90%;
+    }
+
+
 }

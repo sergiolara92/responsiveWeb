@@ -4,7 +4,6 @@
     justify-content: center;
     width: 100%;
     height: 100vh;
-    background-color: red;
 }
 
 .projects p {
@@ -23,7 +22,6 @@
 .recentProjects {
     width: 76.39%;
     height: 76.92%;
-    background-color: green;
 }
 
 .projectRow {
@@ -31,7 +29,6 @@
     flex-direction: row;
     justify-content: space-around;
     gap: 5%;
-    background-color: yellow;
 }
 
 .projectRow img{
@@ -42,7 +39,6 @@
 .projectColumn {
     background-color: white;
     width: 30%;
-    background-color: pink;
 }
 
 
