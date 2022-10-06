@@ -70,13 +70,16 @@
     color: white;
     height: 80px;
     border: none;
-    width: 76.39%;
+    width: 100%;
+    margin-top: 15%;
 }
 
 
 
 @media (min-width: 831px) and (max-width: 1100px) { /*tablet vertical*/
-  
+    .botonFinal {
+        margin-top: 20%;
+    }
 }
 
 @media (max-width: 830.98px) { /*smartphone horizontal*/
@@ -98,10 +101,18 @@
         height: 180px;
     }
 
+    .botonFinal {
+        margin-top: 25%;
+    }
+
 }
 
 @media (min-width: 370px) and (max-width: 570px) { /*smartphone vertical*/
     .contactUs {
         text-align: center;
+    }
+
+    .botonFinal {
+        margin-top: 30%;
     }
 }

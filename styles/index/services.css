@@ -6,6 +6,8 @@
     margin-top: 200px;
 }
 
+
+
 .services p {
     font-size: 17px;
     color: #6B708D;
@@ -14,6 +16,7 @@
 
 .services a {
     font-size: 17px;
+    color: blue;
 }
 
 
@@ -59,7 +62,7 @@
     word-wrap: break-word;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 .servicesColumn > a, p, h4 {
@@ -72,9 +75,9 @@
 
 @media (min-width: 831px) and (max-width: 1100px) { /*tablet vertical*/
   
-    .services {
+    /* .services {
         height: 100vh;
-    }
+    } */
     
     .ourServices {
         width: 90%;
@@ -93,9 +96,13 @@
         height: 340vh;
     }
 
+    .services h3{
+        text-align: center;
+    }
+
     
     .servicesRow {
-        height: 90%;
+        height: 70%;
         flex-direction: column;
         align-items: center;
         justify-content: start;

@@ -1,4 +1,4 @@
-nav {
+/* nav {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -52,16 +52,170 @@ nav a{
 
 .navRight a{
     color: white !important;
+} */
+header {
+    position: fixed;
+    z-index: 100;
+    margin-top: -100px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #ECF7FF;
 }
 
+.menu{
+    width: 76.39%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu img{
+    height: 18.5px;
+    width: 60.5px;
+}
+
+.menu_items {
+    display: flex;
+    list-style: none;
+    gap: 20%;
+}
+
+.menu_items li a{
+    display: block;
+    color: #6B708D;    
+}
+
+.menu_items a:hover{
+    color: blue;
+    transition: .4s;
+}
+
+/* .menu_items a:active {
+    color: blue;
+    font-weight: bold;
+} */
+
+.btn_menu {
+    font-size: 25px;
+    color: blue;
+    cursor: pointer;
+    display: none;
+}
+
+ul.show {
+    top:65px;
+    right: 10%;
+}
+
+.botonContacto {
+    background: #072AC8;
+    width: 150px;
+    height: 52px;
+    border: none;
+}
+
+.botonContacto a{
+    color: white !important;
+}
+
+.botonContacto1 {
+    display: none;
+}
 
 
 @media (min-width: 831px) and (max-width: 1100px) { /*tablet vertical*/
-  
+    .btn_menu {
+        display: inline-flex;
+    }
+    
+    .menu_items{
+    margin-left: 450px;
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    top: -100vh;
+    text-align: right;
+    transition: all .4s;
+    flex-direction: column;
+    gap: 0px;
+    background-color: #ECF7FF;
+
+    }
+
+    .botonContacto {
+        display: none;
+    }
+
+    .botonContacto1 {
+        display: block;        
+    }
+
+    .menu_items li {
+    margin: 30px, 0 0 0;
+    line-height: 30px;
+    }
+
+    .menu_items li:hover {
+    background-color: none;
+    }
+
+    .menu_items li a{
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+    .menu_items li a:hover{
+    color: red;
+    }
 }
 
 @media (max-width: 830.98px) { /*smartphone horizontal*/
-  
+    .btn_menu {
+        display: inline-flex;
+    }
+    
+    .menu_items{
+    margin-left: 450px;
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    top: -100vh;
+    text-align: right;
+    transition: all .4s;
+    flex-direction: column;
+    background-color: #ECF7FF;
+    gap: 0px;
+    }
+
+    .botonContacto {
+        display: none;
+    }
+
+    .botonContacto1 {
+        display: block;        
+    }
+
+    .menu_items li {
+    margin: 30px, 0 0 0;
+    line-height: 30px;
+    }
+
+    .menu_items li:hover {
+    background-color: none;
+    }
+
+    .menu_items li a{
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+    .menu_items li a:hover{
+    color: red;
+    }
+   
 }
 
 @media (min-width: 370px) and (max-width: 570px) { /*smartphone vertical*/

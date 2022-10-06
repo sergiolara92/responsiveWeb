@@ -10,11 +10,23 @@
     font-size: 17px;
     padding-left: 20px;
     color: #6B708D;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: -10%;
+
 }
 
 .projects a {
     font-size: 17px;
     padding-left: 20px;
+    margin-bottom: 10%;
+    color: blue;
+}
+
+.projects h4 {
+    margin-top: -20%;
+    margin-bottom: -10%;
 }
 
 
@@ -37,8 +49,12 @@
 }
 
 .projectColumn {
+    height: 444px;
     background-color: white;
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -66,6 +82,10 @@
         height: 340vh;
     }
 
+    .projects h3{
+        text-align: center;
+    }
+
     .recentProjects {
         height: 90%;
     }
@@ -78,11 +98,12 @@
     }
 
     .projectColumn {
-        height: 50%;
         width: 70%;
-        justify-content: center;
     }
+
 }
+
+
 
 
 @media (min-width: 370px) and (max-width: 570px) { /*smartphone vertical*/
@@ -90,6 +111,5 @@
     .projectColumn {
         height: 50%;
         width: 80%;
-        justify-content: center;
     }
 }

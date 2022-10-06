@@ -15,6 +15,7 @@
 .otherProjects a {
     font-size: 17px;
     padding-left: 20px;
+    color: blue;
 }
 
 
@@ -63,6 +64,10 @@
   
     .otherProjects {
         height: 240vh;
+    }
+
+    .otherProjects h3 {
+        text-align: center;
     }
 
     .otherRecentProjects {
