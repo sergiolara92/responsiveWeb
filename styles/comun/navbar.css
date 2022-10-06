@@ -1,5 +1,5 @@
 
-header {
+.headerNew {
     position: fixed;
     z-index: 100;
     margin-top: -200px;
@@ -8,6 +8,7 @@ header {
     display: flex;
     justify-content: center;
     background-color: #ECF7FF;
+    transition: 1s;
 }
 
 .menu{
@@ -72,6 +73,51 @@ ul.show {
     display: none;
 }
 
+.darkModeSwitch{
+    background: #3494b1;
+    display:flex;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.darkModeSwitch span{
+    width:30px;
+    height:30px;
+    line-height:30px;
+    display:block;
+    color:#fff;
+    background: none;
+}
+
+.darkModeSwitch::after{
+    display:block;
+    background: #fffbf5;
+    width: 2.4rem;
+    height: 2.4rem;
+    position: absolute;
+    top:0;
+    left:0;
+    right:unset;
+    border-radius: 3rem;
+    transition: all .5s ease;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, .5);
+    content: "";
+}
+
+.darkModeSwitch.active{
+    background: #fdd384;
+}
+  .darkModeSwitch.active::after{
+    left:unset;
+    right:0;
+}
+
+
 
 @media (min-width: 831px) and (max-width: 1100px) { /*tablet vertical*/
     .btn_menu {
@@ -82,13 +128,22 @@ ul.show {
     margin-left: 450px;
     position: fixed;
     width: 80%;
-    height: 15%;
+    height: 20%;
     top: -100vh;
     text-align: left;
     transition: all .4s;
     flex-direction: column;
     gap: 0px;
     background-color: #C8C8C8;
+    }
+
+    body.dark .menu_items{
+        background-color: #6B708D;
+         
+    }
+    
+    body.dark .menu_items li a{
+        color: #C8C8C8;;    
     }
 
     .botonContacto {
@@ -112,10 +167,6 @@ ul.show {
     font-size: 20px;
     font-weight: bold;
     }
-
-    .menu_items li a:hover{
-    color: red;
-    }
 }
 
 @media (max-width: 830.98px) { /*smartphone horizontal*/
@@ -127,13 +178,22 @@ ul.show {
     margin-left: 450px;
     position: fixed;
     width: 80%;
-    height: 15%;
+    height: 20%;
     top: -100vh;
     text-align: left;
     transition: all .4s;
     flex-direction: column;
     gap: 0px;
     background-color: #C8C8C8;
+    }
+
+    body.dark .menu_items{
+        background-color: #6B708D;
+         
+    }
+    
+    body.dark .menu_items li a{
+        color: #C8C8C8;;    
     }
 
     .botonContacto {

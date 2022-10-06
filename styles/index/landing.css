@@ -43,7 +43,7 @@
 }
 
 .landingLeftBoton .botonIncolor {
-    background-color: transparent;
+    background-color: transparent !important;
     width: 150px;
     height: 52px;
     border: none;
