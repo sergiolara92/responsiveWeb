@@ -61,6 +61,10 @@ body{
     transition: 1s;
 }
 
+body a{
+    text-decoration: none;
+}
+
 body.dark{
     background-color:  #25221b;
     transition: 1s;
@@ -156,9 +160,3 @@ body.dark .landingLeft button{
 }
 
 
-
-
-body a{
-    text-decoration: none;
-
-}
