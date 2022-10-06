@@ -1,17 +1,17 @@
-@import url("/styles/comun/footer.css");
-@import url("/styles/comun/navbar.css");
-@import url("/styles/comun/newsletter.css");
+@import url("./styles/comun/footer.css");
+@import url("./styles/comun/navbar.css");
+@import url("./styles/comun/newsletter.css");
 
-@import url("/styles/contact/contacto.css");
+@import url("./styles/contact/contacto.css");
 
-@import url("/styles/index/client.css");
-@import url("/styles/index/landing.css");
-@import url("/styles/index/projects.css");
-@import url("/styles/index/services.css");
-@import url("/styles/index/testimonial.css");
+@import url("./styles/index/client.css");
+@import url("./styles/index/landing.css");
+@import url("./styles/index/projects.css");
+@import url("./styles/index/services.css");
+@import url("./styles/index/testimonial.css");
 
-@import url("/styles/projectw/otherprojects.css");
-@import url("/styles/projectw/simplify.css");
+@import url("./styles/projectw/otherprojects.css");
+@import url("./styles/projectw/simplify.css");
 
 
 h1 {
