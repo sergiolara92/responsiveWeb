@@ -5,18 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"./>
 
     <title>Contact Us</title>
 </head>
 <body>
 
-    <nav>
-        <div class="navContainer">
-            <div class="navLeft"> <img src="./project-assets//logos/circle.svg" alt="Image not found."></div>
-            <div class="navMiddle"><a href="./index.html">Home</a><a href="./project.html">Projects</a><a>Services</a></div>
-            <div class="navRight"> <button> <a href="./contact.html">Contact Us</a></button></div>
-        </div>
-    </nav>
+    <header>
+        <nav class="menu">
+            <img src="./project-assets/logos/circle.svg" alt="Image not found.">
+            <ul class="menu_items">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./project.html">Projects</a></li>
+                <li><a href="">Services</a></li>
+                <li class="botonContacto1"><a href="./contact.html">Contact Us</a></li>
+            </ul>
+            <button class="botonContacto"> <a href="./contact.html">Contact Us</a></button>
+            <span class="btn_menu">
+                <i class="fa fa-bars"></i>
+            </span>
+        </nav>
+    </header>
 
 
 
@@ -42,12 +51,13 @@
                 </div>
             </div>
             <div class="formMessage fila">
-                <label>Message</label><br>
-                <textarea id="message" placeholder="Write your message here ...." required rows="5" cols="10"></textarea>
+                <label>Message*</label><br>
+                <textarea id="message" placeholder="Write your message here ...." required rows="10"></textarea>
             </div>
 
+            <div class="formBoton fila"></div>
             <button id="subm" type="submit" class="botonFinal fila">Submit</button>
-
+            </div>
         </form>
 
 

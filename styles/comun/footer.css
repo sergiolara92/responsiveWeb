@@ -26,7 +26,7 @@ footer {
 
 
 .footerRight a{
-    color: #6B708D;
+    color: blue;
     font-size: 17px;
 }
 
@@ -62,7 +62,6 @@ footer {
 
     .footerLeft{
         width: 40%;
-
     }
     
 }
@@ -71,23 +70,25 @@ footer {
 
     .footerContainer{
         width: 100%;
+        flex-direction: column;
+        gap: 30%;
+
     }
 
     .footerLeft{
-        width: 50%;
+        width: 100%;
         justify-content: center;
-
+        align-items: center;
     }
 
     .footerRight {
         justify-content: center;
-        width: 50%;
+        width: 100%;
+        gap: 10%;
     }
-    
+
 }
 
 @media (min-width: 370px) and (max-width: 570px) { /*smartphone vertical*/
 
-
-        
 }

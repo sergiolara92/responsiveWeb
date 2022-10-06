@@ -155,6 +155,10 @@
         height: 100%;
     }
 
+    .testimonialContainer {
+        width: 100%;
+    }
+
     .memojisTextContainer{
         height: 90%;
 
@@ -165,9 +169,8 @@
         height: 80%;
     }
 
-    .memojis img{
-        width: 100px;
-        height: 100px;
+    .mem {
+        display: none;
     }
 
     .profilePic img{
