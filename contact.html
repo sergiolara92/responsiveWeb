@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="./styles/index.css">
 
     <title>Contact Us</title>
 </head>
@@ -12,9 +12,9 @@
 
     <nav>
         <div class="navContainer">
-            <div class="navLeft"> <img src="/project-assets//logos/circle.svg" alt="Image not found."></div>
-            <div class="navMiddle"><a href="/index.html">Home</a><a href="/project.html">Projects</a><a>Services</a></div>
-            <div class="navRight"> <button> <a href="/contact.html">Contact Us</a></button></div>
+            <div class="navLeft"> <img src="./project-assets//logos/circle.svg" alt="Image not found."></div>
+            <div class="navMiddle"><a href="./index.html">Home</a><a href="./project.html">Projects</a><a>Services</a></div>
+            <div class="navRight"> <button> <a href="./contact.html">Contact Us</a></button></div>
         </div>
     </nav>
 
@@ -26,27 +26,27 @@
         </div>
 
 
-        <form class="formulario" onsubmit="return false">
+        <form id="form" class="formulario">
             <div class="formNombre fila">
                 <label>Full Name*</label><br>
-                <input id="name" type="text" placeholder="Enter your full name"><br>
+                <input id="name" type="text" placeholder="Enter your full name" required><br>
             </div>
             <div class="formMailPhone">
                 <div class="formMail fila">
                     <label>Email</label><br>
-                    <input id="email" type="email" placeholder="Enter your email address">
+                    <input id="email" type="email" placeholder="Enter your email address" required>
                 </div>
                 <div class="formPhone fila">
                     <label>Phone</label><br>
-                    <input id="tel" type="tel" placeholder="Enter your phone number">
+                    <input id="tel" type="tel" placeholder="Enter your phone number" required>
                 </div>
             </div>
             <div class="formMessage fila">
                 <label>Message</label><br>
-                <input id="message" type="text" placeholder="Write your message here ....">
+                <textarea id="message" placeholder="Write your message here ...." required rows="5" cols="10"></textarea>
             </div>
 
-            <button id="subm" class="botonFinal fila">Submit</button>
+            <button id="subm" type="submit" class="botonFinal fila">Submit</button>
 
         </form>
 
@@ -58,7 +58,7 @@
     <footer>
         <div class="footerContainer">
             <div class="footerLeft">
-                <img src="/project-assets//logos/circle.svg" alt="Image not found.">
+                <img src="./project-assets//logos/circle.svg" alt="Image not found.">
                 <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
             </div>
             <div class="footerRight">
@@ -79,6 +79,6 @@
     </footer>
     
 
-    <script src="/javascript/contact.js"></script>
+    <script src="./javascript/contact.js"></script>
 </body>
 </html>

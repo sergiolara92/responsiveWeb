@@ -1,9 +1,11 @@
 
 
-const subm = document.getElementById('subm');
+const formulario = document.getElementById('form');
 
 
-const handleClickSubmit= () => {
+
+const handleClickSubmit= (event) => {
+    event.preventDefault();
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const tel = document.getElementById('tel').value;
@@ -16,4 +18,4 @@ const handleClickSubmit= () => {
     console.log(name, email, tel, message);
 }
 
-subm.addEventListener("click", handleClickSubmit);
+formulario.addEventListener("submit", handleClickSubmit);

@@ -58,7 +58,7 @@ window.addEventListener('load', async () => {
     const description1 = await getDescription1();
 
     columna1.innerHTML += `
-    <img src="/project-assets/projects-section/1.jpg" alt="">
+    <img src="./project-assets/projects-section/1.jpg" alt="">
     <h4>${title1}</h4>
     <p>${description1}</p>
     <a href="">Learn more</a>
@@ -68,7 +68,7 @@ window.addEventListener('load', async () => {
     const description2 = await getDescription2();
 
     columna2.innerHTML += `
-    <img src="/project-assets/projects-section/2.jpg" alt="">
+    <img src="./project-assets/projects-section/2.jpg" alt="">
     <h4>${title2}</h4>
     <p>${description2}</p>
     <a href="">Learn more</a>
@@ -78,7 +78,7 @@ window.addEventListener('load', async () => {
     const description3 = await getDescription3();
 
     columna3.innerHTML += `
-    <img src="/project-assets/projects-section/3.jpg" alt="">
+    <img src="./project-assets/projects-section/3.jpg" alt="">
     <h4>${title3}</h4>
     <p>${description3}</p>
     <a href="">Learn more</a>

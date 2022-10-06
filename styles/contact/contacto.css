@@ -32,6 +32,12 @@
     width: 100%;
 }
 
+textarea {
+    width: 100%;
+    background-color: rgba(107, 112, 141, 0.1);
+    border: none;
+}
+
 /*padding solo para el placeholder*/
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     padding-left: 10px;
