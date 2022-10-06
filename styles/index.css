@@ -66,7 +66,12 @@ body.dark{
     transition: 1s;
 }
 
-body.dark h1, h3{
+body.dark h1{
+    color: #FFC600;
+    transition: 1s;
+}
+
+body.dark h3{
     color: #FFC600;
     transition: 1s;
 }
@@ -111,7 +116,7 @@ body.dark .servicesColumn h4{
     transition: 1s;
 }
 
-body.dark .servicesRow .fondo {
+body.dark .servicesRow .fondo{
     background-color: #124d777b; 
     transition: 1s;  
       
@@ -150,14 +155,6 @@ body.dark .landingLeft button{
     transition: 1s;
 }
 
-/* body.dark .menu_items{
-    background-color: #6B708D;
-     
-}
-
-body.dark .menu_items li a{
-    color: #C8C8C8;;    
-} */
 
 
 
