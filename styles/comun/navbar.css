@@ -214,8 +214,13 @@ ul.show {
     background-color: #C8C8C8;
     }
 
-    body.dark .btn_menu {
+    body.dark .btn_menu.show{
         background-color: #6B708D;
+        transition: 1s;
+    }
+
+    body.dark .fa{
+        color: #ffad14;
         transition: 1s;
     }
 
