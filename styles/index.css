@@ -30,7 +30,6 @@ h3 {
     padding-left: 0px;
     margin-left: 0px;
     transition: 1s;
-
 }
 
 
@@ -121,7 +120,7 @@ body.dark .servicesColumn h4{
 }
 
 body.dark .servicesRow .fondo{
-    background-color: #124d777b; 
+    background-color: #ffad14; 
     transition: 1s;  
       
 }
@@ -147,6 +146,7 @@ body.dark .simplify span{
 body.dark .client img{
     -webkit-filter: none;
     filter: none;
+    transition: 1s;
 }
 
 body.dark button{
